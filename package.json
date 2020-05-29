@@ -1,0 +1,19 @@
+{
+  "name": "api-node-tdd-clean-architecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture/issues"
+  },
+  "homepage": "https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture#readme"
+}
