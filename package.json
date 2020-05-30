@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture/issues"
   },
-  "homepage": "https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture#readme"
+  "homepage": "https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture#readme",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
 }
