@@ -6,6 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture.git"
@@ -17,6 +28,8 @@
   },
   "homepage": "https://github.com/MarceloHoffmeister/api-node-tdd-clean-architecture#readme",
   "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
     "standard": "^14.3.4"
   }
 }
