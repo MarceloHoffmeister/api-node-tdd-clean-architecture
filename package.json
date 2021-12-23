@@ -9,7 +9,9 @@
     "test:ci": "jest --coverage --noStackTrace --silent"
   },
   "standard": {
-    "env": ["jest"]
+    "env": [
+      "jest"
+    ]
   },
   "repository": {
     "type": "git",
@@ -26,5 +28,8 @@
     "jest": "^26.0.1",
     "lint-staged": "^10.2.7",
     "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "validator": "^13.7.0"
   }
 }
