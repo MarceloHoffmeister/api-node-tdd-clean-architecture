@@ -28,6 +28,6 @@ module.exports = class AuthUseCase {
       return null
     }
 
-    await this.tokenGenerator.generate(user.id)
+    return await this.tokenGenerator.generate(user.id)
   }
 }
